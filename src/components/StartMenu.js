@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 function StartMenu() {
   return (
     <div className='startMenu'>
+
         <Link to="/Storymode"><button>STORY MODE</button></Link>
-        <button>QUICK MODE</button>
+        <Link to="/Projects"><button>QUICK MODE</button></Link>
     </div>
   )
 }
